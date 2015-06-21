@@ -1,6 +1,6 @@
 package shapes;
 
-public abstract class Shape {
+public class Shape {
     private String name;
     private Color color;
 
@@ -8,7 +8,7 @@ public abstract class Shape {
 
 //    zadeklarowana metoda do liczenia powierzchni
 //          we wszystkich klasach pochodnych
-    public abstract double getArea();
+    public double getArea() { return -1; }
 
     public Shape() {
     }
